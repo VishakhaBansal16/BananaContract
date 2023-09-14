@@ -1,0 +1,45 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/dte-202/Downloads/contracts/contracts/Banana.sol": {
+      "lastModificationDate": 1694599018603,
+      "contentHash": "06f8c1d9d1de003dec38f2aed6f34c32",
+      "sourceName": "contracts/Banana.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.5.16"
+      ],
+      "artifacts": [
+        "Banana",
+        "IERC20",
+        "IUniswapV2Factory",
+        "IUniswapV2Router02",
+        "Ownable",
+        "Presale"
+      ]
+    }
+  }
+}
